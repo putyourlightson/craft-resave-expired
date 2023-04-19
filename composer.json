@@ -1,0 +1,29 @@
+{
+    "name": "putyourlightson/craft-resave-expired",
+    "description": "Resaves and triggers events for elements that expire or are newly published.",
+    "version": "1.0.0",
+    "type": "craft-plugin",
+    "license": "proprietary",
+    "require": {
+        "php": "^8.0.2",
+        "craftcms/cms": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "putyourlightson\\resaveexpired\\": "src/"
+        }
+    },
+    "support": {
+        "docs": "https://github.com/putyourlightson/craft-resave-expired",
+        "source": "https://github.com/putyourlightson/craft-resave-expired",
+        "issues": "https://github.com/putyourlightson/craft-resave-expired/issues"
+    },
+    "extra": {
+        "name": "Resave Expired",
+        "handle": "resave-expired",
+        "developer": "PutYourLightsOn",
+        "developerUrl": "https://putyourlightson.com/",
+        "changelogUrl": "https://raw.githubusercontent.com/putyourlightson/craft-resave-expired/main/CHANGELOG.md",
+        "class": "putyourlightson\\resaveexpired\\resaveexpired"
+    }
+}
