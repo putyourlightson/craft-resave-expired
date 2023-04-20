@@ -7,6 +7,16 @@
 
 The Resave Expired plugin resaves elements when their future post or expiry dates pass. It requires a CLI command to be run on a regular schedule via a cron job. 
 
+```shell
+php craft resave-expired/elements/resave-expired
+```
+
+Since expiry dates are only registered on element save, you can run the following command after installing the plugin, which will resave all elements’ expiry dates.
+
+```shell
+php craft resave-expired/elements/resave-expiry-dates
+```
+
 ## Documentation
 
 Learn more and read the documentation at [putyourlightson.com/plugins/resave-expired »
