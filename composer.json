@@ -1,6 +1,6 @@
 {
     "name": "putyourlightson/craft-resave-expired",
-    "description": "Resaves and triggers events for elements that expire or are newly published.",
+    "description": "Resaves elements when their future post or expiry dates pass.",
     "version": "1.0.0",
     "type": "craft-plugin",
     "license": "proprietary",

@@ -5,7 +5,7 @@
 
 # Resave Expired Plugin for Craft CMS
 
-The Resave Expired plugin resaves elements when they expire or their post date passes.
+The Resave Expired plugin resaves elements when their future post or expiry dates pass. It requires a CLI command to be run on a regular schedule via a cron job. 
 
 ## Documentation
 
