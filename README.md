@@ -5,17 +5,9 @@
 
 # Resave Expired Plugin for Craft CMS
 
-The Resave Expired plugin resaves elements when their future post or expiry dates pass. It requires a CLI command to be run on a regular schedule via a cron job. 
+The Resave Expired plugin resaves elements when their future post or expiry dates pass. It requires a console command to be run on a regular schedule via a cron job.
 
-```shell
-php craft resave-expired/elements/resave-expired
-```
-
-Since expiry dates are only registered on element save, you can run the following command after installing the plugin, which will resave all elements’ expiry dates.
-
-```shell
-php craft resave-expired/elements/resave-expiry-dates
-```
+This is especially useful with plugins like [Scout](https://plugins.craftcms.com/scout?craft4), that sync entries to Algolia only on save. Caching plugins could also benefit from this (the [Blitz]({entry:10}) plugin already has this functionality built in, so does *not* require this plugin).
 
 ## Documentation
 
